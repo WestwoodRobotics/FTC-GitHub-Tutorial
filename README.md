@@ -1,12 +1,17 @@
 # FTC-GitHub-Tutorial
 For FTC Members to learn GitHub
 
+## Forking
+Before we get started with this, be sure to fork the project. Forking essentially makes a new remote repo that's identical to the one being copied, but has no linkeges to it (unlike cloning, which creates a local repo that is connected to the remote one).
+![](Tutorial_Images/Screenshot2022-06-26103352)
+Make sure to follow all of the following steps on your own forked repo.
+
 ## Getting Started
 If you're not already added to the Westwood Robotics Github organization, please fill out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLSem02o6UWvw7SDrx79-wWmDvUgLiNIrVyI_i_1ZKi8lNNkPrA/).
 
-Look through the features in this Github Tutorial and devise a simple one that you think would be useful (ex: telemetry, getting controller input, controlling the drive, etc...). Please try to keep your feature addition small. Try to use multiple commits throughout the development of your feature.
+Devise a simple one that you think would be useful (ex: telemetry, getting controller input, controlling the drive, etc...). Try to use multiple commits throughout the development of your feature.
 
-Once you've identified a useful feature, create an issue. Feel free to create multiple issues if you find other things that you believe should be implemented, but make sure to only assign yourself to one. 
+Once you've identified a useful feature, create an issue. Feel free to create multiple issues if you find other things that you believe should be implemented. Assign yourself to one or more issues. 
 ![](Tutorial_Images/DELETEME13.png)
 ![](Tutorial_Images/Screenshot2022-06-25195619.png)
 
