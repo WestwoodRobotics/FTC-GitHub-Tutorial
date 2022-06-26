@@ -47,7 +47,7 @@ You should see the branch name in the blue parenthesis change (contact a consult
 Whenever working on your project, always always always make sure that you are on the right branch, since changes made on the wrong branch will... well they'll be commited to the wrong branch, creating an annoying mess.
 
 ## Actually Writing Code!!
-So everything is set up now, we are on the right branch, and it is time to start writing code. Use Android Studio (see Android Studio Tutorial) to open up your project (if Android Studio is not working, you may use anothher IDE of your choice, but we highly recommend Android Studio since it is what we use in FTC). 
+So everything is set up now, we are on the right branch, and it is time to start writing code. Use Android Studio (see [Android Studio Tutorial](https://docs.google.com/presentation/d/1iUlxjcrxuyIZWXUFMNzPuYlr5EJXidzRTllLaZ7bxXQ/edit?usp=sharing)) to open up your project (if Android Studio is not working, you may use anothher IDE of your choice, but we highly recommend Android Studio since it is what we use in FTC). 
 ![](Tutorial_Images/Screenshot2022-06-26104306.png)
 ![](Tutorial_Images/Screenshot2022-06-26104455.png)
 Once again, if you are not familar with Android Studio, see our Android Studio Tutorial. 
