@@ -8,3 +8,17 @@ Look through the features in this Github Tutorial and devise a simple one that y
 
 Once you've identified a useful feature, create an issue. Feel free to create multiple issues if you find other things that you believe should be implemented, but make sure to only assign yourself to one. 
 ![](Tutorial_Images/DELETEME13.png)
+![](Tutorial_Images/Screenshot 2022-06-25 195619)
+
+Great, now that you've got an issue to work on (feel free to use issues already created by others but not assigned to anyone), lets clone this repository onto your computer.
+
+This is what we call a remote reposotory since it's remotely accesable by everyone. In order to open files locally on your device, you will have to copy this repository onto your computer. When you make commits and changes to commits, they affect this local reposotory. It is not until you push the commits made locally to the remote reposotory that everyone can view and access them.
+The first thing we will have to do is [download Git Bash](https://git-scm.com/downloads), because it allows us to interact with our reposotories and copy the remote one locally. 
+
+After you've downloaded git bash, copy the reposotory link.
+![](Tutorial_Images/Screenshot 2022-06-25 195335)
+
+Use "cd [file directory name]" to navigate towards your desired folder where you would like to store this local reposotory.
+Then type "git clone [resposotory link]" into git bash like so.
+![](Tutorial_Images/Screenshot 2022-06-25 201117)
+
