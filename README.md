@@ -9,7 +9,7 @@ Make sure to follow all of the following steps on your own forked repo.
 ## Getting Started
 If you're not already added to the Westwood Robotics Github organization, please fill out the google form [here](https://docs.google.com/forms/d/e/1FAIpQLSem02o6UWvw7SDrx79-wWmDvUgLiNIrVyI_i_1ZKi8lNNkPrA/).
 
-Devise a simple one that you think would be useful (ex: telemetry, getting controller input, controlling the drive, etc...). Try to use multiple commits throughout the development of your feature.
+Devise a simple feature that you think would be useful (ex: telemetry, getting controller input, controlling the drive, etc...). Try to use multiple commits throughout the development of your feature.
 
 Once you've identified a useful feature, create an issue. Feel free to create multiple issues if you find other things that you believe should be implemented. Assign yourself to one or more issues. 
 ![](Tutorial_Images/DELETEME13.png)
@@ -30,6 +30,7 @@ Then type "git clone [resposotory link]" into git bash like so.
 Now that you've cloned the repo, try nnavigating to the folder that you cloned it to to see if it worked!
 ![](Tutorial_Images/Screenshot2022-06-25201846.png)
 
+## Branching
 Now that we've successfuly cloned the project (let a consultant know if something didn't work), lets create a branch for your feature implementation.
 First go to the branches tab and create a new branch. If you are creating a sub-branch, be sure to adjust the branch dource accordingly.
 ![](Tutorial_Images/Screenshot2022-06-25210246.png)
@@ -45,6 +46,7 @@ You should see the branch name in the blue parenthesis change (contact a consult
 
 Whenever working on your project, always always always make sure that you are on the right branch, since changes made on the wrong branch will... well they'll be commited to the wrong branch, creating an annoying mess.
 
+## Actually Writing Code!!
 So everything is set up now, we are on the right branch, and it is time to start writing code. Use Android Studio (see Android Studio Tutorial) to open up your project (if Android Studio is not working, you may use anothher IDE of your choice, but we highly recommend Android Studio since it is what we use in FTC). 
 ![](Tutorial_Images/Screenshot2022-06-26104306.png)
 ![](Tutorial_Images/Screenshot2022-06-26104455.png)
@@ -62,6 +64,27 @@ This can be done with the command "git push".
 Now you remote and local reposotories match up. One error you might run into when working with a team is when your code being pushed conflicts with the current code. Say person 1 is working on the same branch as person 2. Person 2 pushes some code in the morning that deletes a method. Person 1 forgets to pull before they work on their code and decides to modify the method deleted by person 2 earlier because they do not know that person 2 actually deleted it. When person 1 attempts to push the code to the remote repo in the afternoon, there is a conflict between the two versions. You would be prompted with a configurable screen that will show you the conflict and allow you to decide which change should be kept. This is why you should ALWAYS pull before working and be careful when two people are working on the same branch. 
 
 Continue working on your feature until completion. 
+
+## Merging
+After you feel your feature is completed, it is time to merge. If you missed the Github and Git introductory lesson, check it out [here](https://docs.google.com/presentation/d/1YNw5FzJAP8Ln8anP9AH8PgZl_0VgL0Oua4a5Fj6u760/edit?usp=sharing). This presentation goes over the idea behind merges.
+In an typical setting, you would need to create a pull request in Github and have someone with permission (typically a consultant or experience programmer or Git Specialist) verify that the code works and should be merged into main. If this person thinks it should be merged into main, they will authorize the pull request and boom, your code is now part of the main code.
+For this learning setting, however, you will get to authorize the pull request yourself since it is your project!
+
+I should probably begin this section on merging by giving a brief on what a pull request is. It is essentially a request to have your code combined with the main code using one of three merges that were gone over in the Github presentation.
+
+But if you feel ready then you can start by pushing your code to make sure that the remote repo where you will be doing this merge is up to date. 
+Next you will log into Github and open up your repo's page. Head to the branches page and click create new pull request for the branch that is completed under active branches.
+![](Tutorial_Images/Screenshot2022-06-25210246.png)
+![](Tutorial_Images/Screenshot2022-06-26111921.png)
+You can leave a comment if you feel it is necessary. If the repository is set up so that a certain number of people must review your work before the merge can be completed, the "request reviewers" feature on the right hand side of the screen can prove to be quite useful.
+![](Tutorial_Images/Screenshot2022-06-26112154.png)
+For this learning environment, however, you will authorize the pull request yourself.
+ADD IMAGE LATER
+
+Merges become troublesome when there are conflicts between the changes in the source branch and your branch. Just like when pushing, you will be able to go through and decide which changes take precendence. 
+
+Another thing you should do is link the issue to the pull request you just made and resolve the issue once the pull request is authorized.
+INSERT IMAGE LATER
 
 
 
