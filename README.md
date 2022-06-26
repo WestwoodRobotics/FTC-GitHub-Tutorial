@@ -8,7 +8,7 @@ Look through the features in this Github Tutorial and devise a simple one that y
 
 Once you've identified a useful feature, create an issue. Feel free to create multiple issues if you find other things that you believe should be implemented, but make sure to only assign yourself to one. 
 ![](Tutorial_Images/DELETEME13.png)
-![](Tutorial_Images/Screenshot 2022-06-25 195619)
+![](Tutorial_Images/Screenshot2022-06-25195619)
 
 Great, now that you've got an issue to work on (feel free to use issues already created by others but not assigned to anyone), lets clone this repository onto your computer.
 
@@ -16,14 +16,14 @@ This is what we call a remote reposotory since it's remotely accesable by everyo
 The first thing we will have to do is [download Git Bash](https://git-scm.com/downloads), because it allows us to interact with our reposotories and copy the remote one locally. 
 
 After you've downloaded git bash, copy the reposotory link.
-![](Tutorial_Images/Screenshot 2022-06-25 195335)
+![](Tutorial_Images/Screenshot2022-06-25195335)
 
 Use "cd [file directory name]" to navigate towards your desired folder where you would like to store this local reposotory.
 Then type "git clone [resposotory link]" into git bash like so.
-![](Tutorial_Images/Screenshot 2022-06-25 201117)
+![](Tutorial_Images/Screenshot2022-06-25201117)
 
 Now that you've cloned the repo, try nnavigating to the folder that you cloned it to to see if it worked!
-![](Tutorial_Images/Screenshot%202022-06-25%20201846)
+![](Tutorial_Images/Screenshot2022-06-25201846)
 
 
 
