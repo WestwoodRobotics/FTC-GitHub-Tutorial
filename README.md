@@ -22,3 +22,8 @@ Use "cd [file directory name]" to navigate towards your desired folder where you
 Then type "git clone [resposotory link]" into git bash like so.
 ![](Tutorial_Images/Screenshot 2022-06-25 201117)
 
+Now that you've cloned the repo, try nnavigating to the folder that you cloned it to to see if it worked!
+![](Tutorial_Images/Screenshot 2022-06-25 201846)
+
+
+
