@@ -25,5 +25,21 @@ Then type "git clone [resposotory link]" into git bash like so.
 Now that you've cloned the repo, try nnavigating to the folder that you cloned it to to see if it worked!
 ![](Tutorial_Images/Screenshot2022-06-25201846.png)
 
+Now that we've successfuly cloned the project (let a consultant know if something didn't work), lets create a branch for your feature implementation.
+First go to the branches tab and create a new branch. If you are creating a sub-branch, be sure to adjust the branch dource accordingly.
+![](Tutorial_Images/Screenshot2022-06-25210246.png)
+
+Since you've just created a new branch in your remote reposotory (there is a way to do it locally, but it's slightly more complicated. ask a consultant if your interested), you will need to pull.
+A pull is executed with the command "git pull" and is used to update your local repo to match the remote one. In this case we need to update it in accordance to our newly created branch, but it's good practice to pull before working on code every time, since there is always a possibility that someone else made changes to the code which you are about to edit, something that can cause problems. 
+
+One thing to be careful of is to make sure that you are working on the right branch. If you go to Bash, your command line probably looks like this.
+![](Tutorial_Images/Screenshot2022-06-25211004.png)
+Notice the blue parenthesis. Whatever is between these indicates which branch you are working on. 
+In order to change branches, use "git checkout [branch name]".
+You should see the branch name in the blue parenthesis change (contact a consultant if it doesn't).
+
+Whenever working on your project, always always always make sure that you are on the right branch, since changes made on the wrong branch will... well they'll be commited to the wrong branch, creating an annoying mess.
+
+
 
 
